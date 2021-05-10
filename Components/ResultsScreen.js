@@ -15,12 +15,16 @@ class ResultsScreen extends React.Component{
         let pastriesTotalSalessp=0
            for(var i=0;i<this.props.product.length;i++){
                
-                    totalcp=totalcp+(Number(this.props.product[i].cp)*Number(this.props.product[i].sold))
+                    totalcp=totalcp+(Number(this.props.product[i].cp)*Number(this.props.product[i].sold));
+                    // console.log((Number(this.props.product[i].cp)*Number(this.props.product[i].sold)))
+                    console.log(totalcp)
                     totalsp=totalsp+(Number(this.props.product[i].sp)*Number(this.props.product[i].sold))
+                    // console.log((Number(this.props.product[i].sp)*Number(this.props.product[i].sold)))
+                    console.log(totalsp)
                            
            }
 
-           for(var i=0;i<this.props.pastries.length;i++){
+           for(var i=0;i<this.props.pastries.length;i++){  
                
             pastriesTotalSalescp=pastriesTotalSalescp+(Number(this.props.pastries[i].cp)*Number(this.props.pastries[i].sold))
             pastriesTotalSalessp=pastriesTotalSalessp+(Number(this.props.pastries[i].sp)*Number(this.props.pastries[i].sold))
