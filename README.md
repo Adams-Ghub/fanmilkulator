@@ -2,7 +2,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h1><b>Portfolio Project</b></h1>
+  <h1><b>Fanmilkulator</b></h1>
 </div>
 
 # 📗 Table of Contents
