@@ -84,7 +84,7 @@ class BookingComponent extends React.Component{
 
                             <TextInput style={styles.bookedAndReturnedTextInput}
                             placeholder="Quantity Returned"
-                            clearTextOnFocus="true"
+                            clearTextOnFocus={true}
                             keyboardType="number-pad"
                             value={this.state.returned}
                             onChangeText={(returned)=>{this.setState({returned})}}
