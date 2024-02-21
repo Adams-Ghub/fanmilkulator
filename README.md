@@ -110,7 +110,7 @@ Deploy this project on your server by uploading content of your local directory 
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Contact Form**
-- [ ] **About us page**
+- [ ] **Settings screen**
 - [ ] **Projects page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
